@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Bitakle Org"
+title = "Nonprofit | Bitakle Inc"
 themesDir = "themes"
 theme = "hugo-hero-theme"
 
@@ -8,7 +8,7 @@ theme = "hugo-hero-theme"
   [module.hugoVersion]
     extended = true
     min = "0.92.0"
-    
+
 [params]
   google_analytics_id=""
 
