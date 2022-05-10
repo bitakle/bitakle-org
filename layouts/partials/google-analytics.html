@@ -12,7 +12,9 @@
       gtag('config', '{{- $gid -}}');
     </script>
   {{ else }}
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0ac592ee1edd436d8f326f3e1d54b868"}'></script><!-- End Cloudflare Web Analytics -->
-    {{ end }}
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0ac592ee1edd436d8f326f3e1d54b868"}'>
+</script>
+<!-- End Cloudflare Web Analytics -->
   {{ end}}
 {{ end }}
